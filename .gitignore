@@ -1,0 +1,16 @@
+# Gradle / Android build output
+dock/build/
+dock/app/build/
+dock/.gradle/
+dock/.kotlin/
+dock/local.properties
+*.apk
+*.aab
+
+# IDE
+.idea/
+*.iml
+
+# ROM files are too large for git; download them from the links in the README
+*.zip
+*.img

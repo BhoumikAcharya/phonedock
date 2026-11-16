@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/flipClock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <app.vince.dock.FlipDigit
+                android:id="@+id/flipH1"
+                android:layout_width="150dp"
+                android:layout_height="230dp" />
+
+            <app.vince.dock.FlipDigit
+                android:id="@+id/flipH2"
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:layout_marginStart="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginEnd="14dp"
+                android:fontFamily="sans-serif-light"
+                android:includeFontPadding="false"
+                android:text=":"
+                android:textColor="@color/muted"
+                android:textSize="120sp" />
+
+            <app.vince.dock.FlipDigit
+                android:id="@+id/flipM1"
+                android:layout_width="150dp"
+                android:layout_height="230dp" />
+
+            <app.vince.dock.FlipDigit
+                android:id="@+id/flipM2"
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:layout_marginStart="10dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/flipDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:letterSpacing="0.1"
+            android:textColor="@color/muted"
+            android:textSize="24sp" />
+    </LinearLayout>
+</FrameLayout>

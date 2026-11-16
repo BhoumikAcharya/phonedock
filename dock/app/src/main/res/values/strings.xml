@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Dock</string>
+    <string name="lock">Lock</string>
+    <string name="all_apps">All apps</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="skip">Skip</string>
+    <string name="swipe_hint">← Pomodoro · Music →</string>
+    <string name="music_no_access">Dock needs notification access to show what is playing.</string>
+    <string name="grant_access">Grant access</string>
+    <string name="music_idle">Nothing is playing.</string>
+    <string name="open_music">Open YT Music</string>
+    <string name="prev">⏮</string>
+    <string name="play">▶</string>
+    <string name="pause_glyph">❚❚</string>
+    <string name="next">⏭</string>
+    <string name="admin_explanation">Lets the Lock button turn the screen off.</string>
+    <string name="pinned">Pinned to dock</string>
+    <string name="unpinned">Removed from dock</string>
+    <string name="long_press_hint">Tap to open. Long press to pin or unpin.</string>
+    <string name="durations">DURATIONS</string>
+    <string name="focus_length">Focus session</string>
+    <string name="break_length">Break</string>
+    <string name="minus">−</string>
+    <string name="plus">+</string>
+    <string name="minutes_value">%d min</string>
+</resources>
